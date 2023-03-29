@@ -15,7 +15,7 @@ function Content(){
                 </Typography>
             </Box>
             <Grid container sx={{ p:3 }} rowSpacing={3} columnSpacing={3}>
-                <Grid item sx={{ maxWidth: 1/2 }}>
+                <Grid item md={6} sm={12} xs={12} sx={{ maxWidth: 1/2 }}>
                     <Card >
                         <CardActionArea>
                             <CardMedia component="img" height="140" image="./assets/1.jpg"/>
@@ -30,7 +30,7 @@ function Content(){
                         </CardActionArea>
                     </Card>
                 </Grid>
-                <Grid item sx={{ maxWidth: 1/2 }}>
+                <Grid item md={6} sm={6} xs={12} sx={{ maxWidth: 1/2 }}>
                     <Card >
                         <CardActionArea>
                             <CardMedia component="img" height="140" image="./assets/1.jpg"/>
@@ -45,7 +45,7 @@ function Content(){
                         </CardActionArea>
                     </Card>
                 </Grid>
-                <Grid item sx={{ maxWidth: 1/2 }}>
+                <Grid item md={6} sm={6} xs={12} sx={{ maxWidth: 1/2 }}>
                     <Card >
                         <CardActionArea>
                             <CardMedia component="img" height="140" image="./assets/1.jpg"/>
